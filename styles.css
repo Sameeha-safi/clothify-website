@@ -1,0 +1,53 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background: #111;
+    padding: 15px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #ffb400;
+}
+
+/* Hero Section (Home Page) */
+.hero {
+    height: 85vh;
+    background: url('https://i.imgur.com/wnA5C2f.jpeg') cente
